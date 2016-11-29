@@ -1,7 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head> 
+  <head>
+    <link href="stylesheets/index.css" rel="stylesheet" /> 
     <title>My personal page</title>
+    <meta charset="UTF-8">
   </head>
-  <body></body>
+  <body>
+    <div class="menu">
+      <div class="container">
+        <a href="#about">Обо мне</a>
+        <a href="#contact">Контакты</a>
+      </div>
+    </div>
+    <div class="block" id="about">
+        <div class="container">
+          <h1> Маша Козина изучает HTML  </h1>
+          <img src="images/MK.jpg" id="mk">
+          <p> Здравствуйте! Меня зовут Мария Козина и я начала изучать HTML и CSS пару месяцев назад. Интерес к этому у меня проснулся благодаря моей новой <a href="#foobar">работе</a>. Я работаю аналитиком, и основная часть моей работы состоит в разработке отчетов.
+          </p>
+          <div class="clear"></div>
+        </div>
+    </div>
+    <div class="block" id="foobar">
+        <div class="container">
+          <p> Здесь будет текст </p>
+        </div>
+    </div>
+    <div class="block" id="contact">
+        <div class="container">
+          <ul> 
+            <li> e-mail: <a href="mailto:kozinamaria@gmail.com">kozinamaria@gmail.com</a> </li>
+            <li> phone: +7-952-910-96-55 </li>
+            <li> github: </li>
+          </ul>
+          </p>
+        </div>
+    </div>
+  </body>
 </html>
